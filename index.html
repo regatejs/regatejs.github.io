@@ -120,6 +120,13 @@
       .mastfoot {
         color: rgba(255, 255, 255, .5);
       }
+
+      @media (max-width: 395px) {
+        .lead a.btn {
+          display: block;
+          margin-top: 5px;
+        }
+      }
     </style>
   </head>
 
@@ -134,7 +141,9 @@
         <img src="./regate-256.png" width="256" height="256" style="border-radius: 4px;" />
         <h1 class="cover-heading">Regate</h1>
         <p class="lead">
-            Web components for building form inputs
+            Web components for
+            <br class="d-block d-sm-none" />
+            building form inputs
         </p>
         <p class="lead">
           <a href="https://github.com/regatejs" class="btn btn-lg btn-primary">GITHUB</a>
